@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - MV Faisal Al Hazique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0fff0;
+      padding: 40px;
+      text-align: center;
+      color: #1b5e20;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      color: #006400;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gallery of MV Faisal Al Hazique</h1>
+
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Photo 1">
+    <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Photo 2">
+    <img src="https://via.placeholder.com/300x200?text=Photo+3" alt="Photo 3">
+    <img src="https://via.placeholder.com/300x200?text=Photo+4" alt="Photo 4">
+  </div>
+
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
